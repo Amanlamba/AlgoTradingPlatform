@@ -30,5 +30,12 @@ export const SUPPORTED_TOKENS: TokenDetails[] = [{
     price: "1",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvSxrpym7ij1Hf6zQOltcDORlrJGyj1kPf3A&s",
     decimals: 6
-}
+}, {
+      "name": "ETH",
+      "mint": "Eth11111111111111111111111111111111111111112",
+      "native": false,
+      "price": 1843.50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg",
+      "decimals": 18
+    }
 ]

@@ -33,7 +33,6 @@ export default async function Dashboard() {
     }
 
     return <div>
-
         <ProfileCard publicKey={userWallet.userWallet?.publicKey} />
     </div>
 }

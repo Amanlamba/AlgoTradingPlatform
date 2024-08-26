@@ -17,6 +17,8 @@ export function useTokens(address: string) {
     useEffect(() => {
         axios.get(`/api/tokens?address=${address}`)
             .then(res => {
+                console.log(JSON.stringify(res.data));
+                console.log("Figuring out balance", JSON.stringify(res.data.tokens[0].balance));
                 setTokenBalances(res.data);
                 setLoading(false)
             })
